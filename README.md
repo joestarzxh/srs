@@ -1,4 +1,4 @@
-# SRS
+# SRS(Simple Realtime Server)
 
 ![](http://ossrs.net/gif/v1/sls.gif?site=github.com&path=/srs/srs3)
 [![](https://circleci.com/gh/ossrs/srs/tree/3.0release.svg?style=svg&circle-token=1ef1d5b5b0cde6c8c282ed856a18199f9e8f85a9)](https://circleci.com/gh/ossrs/srs/tree/3.0release)
@@ -149,6 +149,8 @@ For previous versions, please read:
 
 ## V3 changes
 
+* v3.0, 2020-09-14, Prevent stop ingest for multiple times. 3.0.143
+* v3.0, 2020-09-10, RTC: Change SO_REUSEPORT fail to warning. 3.0.142
 * <strong>v3.0, 2020-06-27, [3.0 release0(3.0.141)][r3.0r0] released. 122674 lines.</strong>
 * v3.0, 2020-03-30, For [#1672][bug #1672], fix dvr close file failed bug. 3.0.140
 * <strong>v3.0, 2020-03-29, [3.0 beta4(3.0.139)][r3.0b4] released. 122674 lines.</strong>
